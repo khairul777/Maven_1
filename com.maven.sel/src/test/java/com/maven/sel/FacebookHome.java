@@ -12,6 +12,7 @@ public class FacebookHome
 	  { 
 		  Thread.sleep(3000);
 		  driver.findElement(By.xpath("//span[@class='_1vp5']")).click(); 
+		  System.out.println("done");
 	  }
 
 }
